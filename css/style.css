@@ -457,13 +457,14 @@ a.readmore_bt {
 	text-align: center;
 }
 
-.logo {
-    margin-bottom: 20px;
+.main-logo {
+    margin-bottom: 15px;
 }
 
 .logo img{
     width: 150px;
 }
+
 
 nav.main-menu {
 
@@ -1357,17 +1358,20 @@ nav.main-menu {
 
 .header {
 	background: #658864;
-	padding: 40px 0px;
-	padding-bottom: 35px;
+	padding: 20px 0px;
 }
 
-.logo a {
+@media (min-width: 768px) {
+    .logo-name{
+            padding: 40px 0px;
+    }
+}
+
+.logo-name a {
 	font-size: 30px;
 	font-weight: bold;
 	text-transform: uppercase;
 	color: #fff;
-	line-height: 40px;
-    padding-bottom: 20px;
 }
 
 .relative {
@@ -2013,13 +2017,11 @@ margin-bottom: 20px;
 	font-size: 40px;
     width: 229px;
 	margin: 0 auto;
-	margin-bottom: 60px;
 }
 
 .contact .contact {
 	width: 100%;
 	height: 100%;
-	padding: 30px;
 }
 
 .contact .contact .contactus {
@@ -2059,7 +2061,12 @@ margin-bottom: 20px;
 }
 .contact .contact .location-map {
     float: right;
-    
+}
+
+@media (min-width: 768px) {
+    .location-map iframe{
+        height: 550px
+    }
 }
 
 .contact .contact .textarea {
